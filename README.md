@@ -8,6 +8,6 @@
 
 ## Built with
 
-- Javascript
+- JavaScript
 
 [SoftUni - js-front-end]: https://softuni.bg/trainings/4240/js-front-end-october-2023
