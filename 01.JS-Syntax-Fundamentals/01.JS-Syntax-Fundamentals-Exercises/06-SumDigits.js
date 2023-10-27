@@ -6,7 +6,7 @@ function main(number) {
     }
     console.log (total);
 }
-
+// 
 main (245678)
 main (97561)
 main (543)

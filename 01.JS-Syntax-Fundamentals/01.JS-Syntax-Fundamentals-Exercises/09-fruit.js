@@ -6,3 +6,5 @@ function main(fruit, weight, money) {
 
 main('orange', 2500, 1.80)
 main('apple', 1563, 2.35)
+
+// 
