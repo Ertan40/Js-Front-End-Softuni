@@ -10,3 +10,4 @@ function main(number) {
 main (245678)
 main (97561)
 main (543)
+main (222222)
