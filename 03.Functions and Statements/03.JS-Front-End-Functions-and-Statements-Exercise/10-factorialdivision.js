@@ -8,7 +8,6 @@ function factorialDivision(firstNum, secondNum) {
         }
         return factorial;
     }
-    console.log(factorialDivision)
 }
 
 factorialDivision (5, 2)
