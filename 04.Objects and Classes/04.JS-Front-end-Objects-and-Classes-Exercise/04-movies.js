@@ -1,5 +1,5 @@
 function movies (input) {
-    // let movie name, director, date
+   
     let movies = []
     for (let key of input) {
         // console.log(key) // addMovie Godfather
@@ -40,18 +40,11 @@ function movies (input) {
         if (Object.keys(info).length === 3) {
             console.log(JSON.stringify(info));
         }
-        // console.log(JSON.stringify(info))
     }
 }
-    
-
 // output - {"name":"Fast and Furious","date":"30.07.2018","director":"Rob Cohen"}
 
-movies ([
-    'addMovie Fast and Furious',
-    'addMovie Godfather',
-    'Inception directedBy Christopher Nolan',
-    'Godfather directedBy Francis Ford Coppola',
+movies (['addMovie Fast and Furious', 'addMovie Godfather', 'Inception directedBy Christopher Nolan', 'Godfather directedBy Francis Ford Coppola',
     'Godfather onDate 29.07.2018',
     'Fast and Furious onDate 30.07.2018',
     'Batman onDate 01.08.2018',
