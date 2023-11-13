@@ -12,7 +12,7 @@ function schoolRegister (input) {
                 studentInfo[grade].students = [] 
                 studentInfo[grade].totalScore = 0
             }
-            studentInfo[grade].students.push(name) // studentInfo[grade]['students'].push(name)
+            studentInfo[grade].students.push(name)
             studentInfo[grade].totalScore += avgScore
         }
     }
@@ -24,7 +24,6 @@ function schoolRegister (input) {
         console.log()
     }
 }
-
 schoolRegister ([
     "Student name: Mark, Grade: 8, Graduated with an average score: 4.75",
     "Student name: Ethan, Grade: 9, Graduated with an average score: 5.66",
