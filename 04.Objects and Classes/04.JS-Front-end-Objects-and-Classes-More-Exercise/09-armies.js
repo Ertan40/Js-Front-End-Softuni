@@ -1,6 +1,6 @@
 function main (input) {
     let armies = {};
-   
+    
     for (let i of input) {
         data = i.split(' ') // ['Rick', 'Burr', 'arrives']
         if (data.includes('arrives')) {
@@ -25,8 +25,7 @@ function main (input) {
                 for (let key in armies[leader]) {
                     if (key === armyName) {
                         armies[leader][key] += armyCount;
-                        armies[leader]['total'] += armyCount; 
-                        
+                        armies[leader]['total'] += armyCount;   
                     }
                 }
             }    
