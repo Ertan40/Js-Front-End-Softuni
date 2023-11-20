@@ -1,0 +1,21 @@
+function solve() {
+   document.querySelector('#searchBtn').addEventListener('click', onClick);
+
+   function onClick() {
+      const searchWord = document.querySelector("#searchField").value;
+      const cells = Array.from(document.querySelectorAll("tbody td"));
+      const activeRows = Array.from(document.querySelectorAll("tbody tr.select"));
+      
+      activeRows.forEach(row => {
+         row.classList.remove('select')
+      });
+
+      cells.forEach(cell => {
+         if (cell.textContent.includes(searchWord)) {
+             cell.parentElement.classList.add('select')
+         }
+      });  
+   }
+}
+
+
