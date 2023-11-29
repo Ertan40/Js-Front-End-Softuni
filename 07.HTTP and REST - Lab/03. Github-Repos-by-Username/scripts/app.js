@@ -7,7 +7,7 @@ function loadRepos() {
     fetch(`https://api.github.com/users/${username}/repos`)
 	  .then((response) => {
 		if (!response.ok) {
-			throw new error("Not Found") 
+			throw new Error("Not Found") 
 		} else {
 			return response.json()
 		}
