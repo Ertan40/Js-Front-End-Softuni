@@ -1,4 +1,5 @@
 function main(input) {
+    // final score: 88 in Judge
     // "{hero name} {HP} {bullets}"
     // "FireShot - {character name} - {target}"
     let num_of_chars = parseInt(input.shift());
