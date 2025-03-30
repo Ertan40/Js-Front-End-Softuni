@@ -1,6 +1,15 @@
-# JS Front-End - октомври 2023
+# JS Front-End - оctober 2023
 
-В курса "JS Front-End" курсистите ще получат основни познания по езика JavaScript, като основи на синтаксиса, работа с масиви, матрици, обекти, класове и писане на функции. Курсът ще развие алгоритмичното им мислене. След успешното завършване на този курс ще имат възможност да работят с DOM дървото, да правят манипулации по него и да работят с "event"-и. Ще се разглеждат функционалният и ООП подход за програмиране с JavaScript. Ще се изучават концепции за предаване на данни чрез HTTP и REST.
+In the "JS Front-End" course, students will gain basic knowledge of the JavaScript language, such as syntax basics, working with arrays, matrices, objects, classes and writing functions. The course will develop their algorithmic thinking. Upon successful completion of this course, they will have the opportunity to work with the DOM tree, to manipulate it and to work with "events". The functional and OOP approach to programming with JavaScript will be considered. Concepts for data transmission via HTTP and REST will be studied.
+
+Skills to gain:
+
+- Knowledge of JavaScript Base Syntax
+- Work with classes and objects
+- Work with functions and expressions
+- Work with linear structures
+- Information retrieval and manipulation of the DOM tree
+- Work with HTTP and REST
 
 ## Links
 
